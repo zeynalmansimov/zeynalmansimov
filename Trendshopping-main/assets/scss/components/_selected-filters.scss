@@ -1,0 +1,29 @@
+.selected-filters-container {
+    margin-top: 15px;
+    .selected-filter-item {
+        position: relative;
+        background-color: $white;
+        border-radius: 7px;
+        border: 1px solid $very-light-grey;
+        padding: 5px 9px 5px 3px;
+        height: 35px;
+        text-align: left;
+        .clear-selected-filter-btn {
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            border: 1px solid $very-light-grey;
+            border-radius: 50%;
+            width: 14px;
+            height: 14px;
+            .clear-btn-icon {
+                font-size: 10px;
+                text-align: center;
+            }
+        }
+    }
+    .clear-selected-filters-btn {
+        border: 1px solid $very-light-grey;
+        border-radius: 7px;
+    }
+}
