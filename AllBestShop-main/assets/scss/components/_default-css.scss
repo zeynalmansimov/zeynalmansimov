@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color: $dark-grey;
+    &:hover{
+        color: $dark-grey;
+    }
+}
+
+hr{
+    height: 1px;
+    background-color: $very-light-grey;
+}

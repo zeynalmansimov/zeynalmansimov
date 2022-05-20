@@ -1,0 +1,31 @@
+.search-result-title-wrap{
+    .search-result-title{
+
+        .search-result-description{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 100%;
+            .product-name{
+                line-height: 30px;
+                .search-result-category{
+                    font-family: $primary-font;
+                }
+                .search-result-counts{
+                    font-family: $secondary-font;
+                }
+
+            }
+            .form-select{
+                    width: 180px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    border: 1px solid $primary-color;
+                    font-family: $primary-font;
+                    font-size: 14px;
+                    height: 35px;
+                    line-height: 21px;
+            }
+        }
+    }
+}
